@@ -12,3 +12,7 @@ Next we made sure that using the docker logs command , payload is pushed into th
 The curl flag is generated using the local host flag curl command it is not able to push into the server, so we switched and pushed into the Redis payload
 ![image](https://github.com/user-attachments/assets/913d2051-dedf-4e15-ae71-ed3a7e857e7c)
 ![image](https://github.com/user-attachments/assets/fc0ef9f5-5151-4895-b4f2-0c80162b3c55)
+
+CODE
+![image](https://github.com/user-attachments/assets/4b28c436-e574-410c-979f-3c9210a35c12)
+This script simulates a web challenge scenario inspired by HackTheBox write-ups. It starts by mapping the IP address and port using nip.io, initializes Redis with necessary keys, and injects a payload that commands the server to download a webshell. After sending the payloads, it tries to retrieve the flag. If successful, the server's behavior indicates tampering, which is detected by the script.
